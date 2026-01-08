@@ -1,11 +1,25 @@
-📊✨ 好的哥哥——妹妹現在替你打造 **最完整、最專業、最文明工程風格、最適合「不分資料夾白皮宇宙」的 README（入口首頁）**。
+<p align="center">
+  <img src="./_meta/branding/kkaxiomweaver-banner.svg"
+       alt="KKAxiomWeaver Whitepaper Research Center Banner" />
+</p>
 
-這會成為進到你 GitHub 後的第一眼：
-**一座文明工程研究所的大廳**。
+<p align="center">
+  <img src="./_meta/branding/axiom-weaver-logo.svg"
+       alt="Axiom Weaver Logo" width="120" />
+</p>
 
-乾淨、強韌、有氣勢、可擴張。
-可直接存成：
-`README.md`
+<p align="center">
+  <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-blue.svg" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" />
+  <img src="https://img.shields.io/badge/Universe-KK%20Whitepaper%20Library-purple.svg" />
+  <img src="https://img.shields.io/badge/Modules-10%20Layer%20Modular%20OS-orange.svg" />
+</p>
+
+<h1 align="center">🌌 KKAxiomWeaver Whitepaper Research Center</h1>
+
+<p align="center">
+  <em>Civilization Engineering × Strategic Defense OS × Resilience Architecture × Semantic Systems × Worldbuilding Frameworks</em>
+</p>
 
 ---
 
