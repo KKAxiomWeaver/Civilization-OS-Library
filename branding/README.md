@@ -1,14 +1,10 @@
----
-
-# 🌌 **KKAxiomWeaver Whitepaper Research Center**
-
 <p align="center">
-  <img src="_meta/branding/kkaxiomweaver-banner.svg"
+  <img src="./kkaxiomweaver-banner.svg"
        alt="KKAxiomWeaver Whitepaper Research Center Banner" />
 </p>
 
 <p align="center">
-  <img src="_meta/branding/axiom-weaver-logo.svg"
+  <img src="./axiom-weaver-logo.svg"
        alt="Axiom Weaver Logo" width="120" />
 </p>
 
@@ -19,7 +15,6 @@
   <img src="https://img.shields.io/badge/Modules-10%20Layer%20Modular%20OS-orange.svg" />
 </p>
 
+# 🌌 **KKAxiomWeaver Whitepaper Research Center**
+
 ### *Civilization Engineering × Strategic Defense OS × Resilience Architecture × Semantic Systems × Worldbuilding Frameworks*
-
----
-
