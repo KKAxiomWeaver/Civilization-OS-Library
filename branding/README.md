@@ -1,21 +1,10 @@
-<p align="center">
-  <img src="Branding/kkaxiomweaver-banner.svg"
-       alt="_meta Research Center Banner" />
-</p>
-
-<p align="center">
-  <img src="Branding/axiom-weaver-logo.svg"
-       alt="Axiom Weaver Logo" width="120" />
-</p>
-
-
 ---
 
 # 🌌 **KKAxiomWeaver Whitepaper Research Center**
 
 <p align="center">
   <img src="_meta/branding/kkaxiomweaver-banner.svg"
-       alt="_meta Research Center Banner" />
+       alt="KKAxiomWeaver Whitepaper Research Center Banner" />
 </p>
 
 <p align="center">
@@ -33,3 +22,4 @@
 ### *Civilization Engineering × Strategic Defense OS × Resilience Architecture × Semantic Systems × Worldbuilding Frameworks*
 
 ---
+
