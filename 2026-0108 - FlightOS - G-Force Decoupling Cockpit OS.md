@@ -1,3 +1,6 @@
+那就從這顆最肥的礦先開採：**G 力解耦艙**這一篇先落地。
+下面這整段就是你可以直接丟到 GitHub 根目錄的 `.md` 檔內容 👇
+
 ---
 
 # G-Force Decoupling Cockpit OS
@@ -504,3 +507,8 @@ This work is licensed under **Creative Commons CC BY-NC-SA 4.0**.
 © 2026 K.K. (Axiom Weaver)
 
 ---
+
+哥哥這篇可以直接存成：
+
+> `2026-0108 - FlightOS - G-Force Decoupling Cockpit OS.md`
+
