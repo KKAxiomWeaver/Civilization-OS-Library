@@ -15,23 +15,29 @@
 
 # 🌐 **Overview**
 
-本資料庫收錄 **K.K.（Axiom Weaver）** 所創作的全部白皮書（Whitepapers），
+本資料庫收錄 K.K.（Axiom Weaver） 所創作的全部白皮書（Whitepapers），
 涵蓋多域文明工程（Civilization Engineering）：
 
-* Phase Civilization（相態文明）
-* Semantic Shield（語意防禦）
-* NodeRes / CivMesh（節點韌性網格）
-* Flight OS（飛行系統）
-* Defense OS（國防韌性工程）
-* Energy / Matter OS（能源・物質層）
-* Habitat / Urban Systems（棲地與基建）
+Phase Civilization（相態文明）
 
-所有白皮均採用 **統一語言格式（Whitepaper Master Template）**，
-並以 OS（Operating System）思維建構文明級模型。
+Semantic Shield（語意防禦）
 
-本庫 **不使用資料夾分類**，
+NodeRes / CivMesh（節點韌性網格）
+
+Flight OS（飛行系統）
+
+Defense OS（國防韌性工程）
+
+Energy / Matter OS（能源・物質層）
+
+Habitat / Urban Systems（棲地與基建）
+
+所有白皮均採用 統一語言格式（Whitepaper Master Template），
+並以 OS（Operating System）架構構建文明級模型。
+
+本庫 不使用資料夾分類，
 所有白皮皆存放於根目錄（/）。
-分類與導航則由 `_meta` 系統負責。
+分類與導航則由 _meta 系統負責。
 
 ---
 
@@ -84,18 +90,12 @@
 
 # 🧠 **Philosophy**
 
-K.K. 的白皮宇宙採用「文明工程（Civilization Engineering）」思維。
-此研究架構認為：
+K.K. 的白皮宇宙採用「文明工程（Civilization Engineering）」思維：
 
-> **文明是一個可被建模、可被重構、可被模擬的多域 OS。**
+文明是一個可被建模、可被重構、可被模擬的多域 OS。
 
-因此本資料庫不僅是白皮集合，
-更是一套 **跨物理 × 語意 × 韌性 × 能源 × 國防 × 社會** 的
-文明級操作系統。
-
-每篇白皮都是此宇宙的一個「模組」。
-透過索引、語言統一與版本追蹤，
-這些模組將始終保持相容並可整合。
+此資料庫是一套 跨物理 × 語意 × 韌性 × 能源 × 國防 × 社會系統
+的文明級操作系統。
 
 ---
 
@@ -105,10 +105,13 @@ K.K. 的白皮宇宙採用「文明工程（Civilization Engineering）」思維
 /
 ├── <Whitepaper Files>          # 所有白皮放這裡
 └── _meta/
-      ├── Whitepaper_Template.md
       ├── MASTER_INDEX.md
       ├── VersionMap.md
-      └── (Badges / Citation Guide - optional)
+      ├── Whitepaper_Template.md
+      └── branding/
+            ├── axiom-weaver-logo.svg
+            └── axiomweaver-banner.svg
+
 ```
 
 ---
@@ -118,7 +121,8 @@ K.K. 的白皮宇宙採用「文明工程（Civilization Engineering）」思維
 ```
 K.K. (Axiom Weaver). (<Year>). <TITLE>.
 KKAxiomWeaver Whitepaper Research Center.
-https://github.com/KKAxiomWeaver/Whitepapers
+https://github.com/KKAxiomWeaver/Civilization-OS-Library
+
 ```
 
 ---
@@ -126,7 +130,7 @@ https://github.com/KKAxiomWeaver/Whitepapers
 # 🛡 **License**
 
 All works in this repository are licensed under
-**Creative Commons CC BY-NC-SA 4.0**.
+Creative Commons CC BY-NC-SA 4.0.
 © 2026 K.K. (Axiom Weaver)
 
 ---
@@ -136,15 +140,5 @@ All works in this repository are licensed under
 **K.K.（Axiom Weaver）**
 Civilization Engineer • Multi-domain Architect • System Designer
 以跨域 OS 思維探索：
-
-* 韌性
-* 語意
-* 空域
-* 能源/物質
-* 棲地
-* 國防
-* 相態文明
-
-並致力於建立一套完整的 **文明級操作系統（Civilization OS）**。
 
 ---
