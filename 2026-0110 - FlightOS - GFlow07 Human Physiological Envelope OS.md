@@ -1,3 +1,7 @@
+
+---
+
+````markdown
 # Island G-Flow Cabin System  
 ### GFlow07 — Human Physiological Envelope OS  
 Version `0.9` — `2026-01-09`
@@ -556,3 +560,72 @@ pilot_state_vector:
   advisories:
     envelope_tightening: "MODERATE"
     recommended_recovery_time_min: 25
+````
+
+### 09.2 Example H-EOS to GFEC Adjustment（Conceptual）
+
+```yaml
+heos_envelope_adjustment:
+  reason: "high_fatigue_index_and_recent_lateral_spikes"
+  new_constraints:
+    max_eff_lateral_G: 2.0
+    max_dGdt_lateral: 8.0
+    required_recovery_phase: "mid_alt_transit"
+  duration:
+    until: "mission_end"   # or time-based condition
+```
+
+---
+
+## 10 — Glossary（Lexicon）
+
+* **Human Physiological Envelope OS (H-EOS)**
+  OS layer representing pilot physiology as a dynamic envelope integrated with G-Flow and FlightOS.
+
+* **Physiological Envelope Model (PEM)**
+  Model mapping effective G patterns to physiological risk estimates.
+
+* **Pilot State Vector (PSV)**
+  Compact representation of current and recent physiological and G-exposure state.
+
+* **Physio Envelope Class (PEC)**
+  Category of pilot envelope, used for mission assignment and base constraints.
+
+* **G-Budget**
+  Allocated “capacity” for high-G events in a mission, tracked and updated by H-EOS.
+
+* **Human Exposure Log (HEL)**
+  Longitudinal record of G and related physiological metrics per pilot.
+
+* **G_eff**
+  Effective G at anatomical proxies after G-Flow shaping by IGFCS.
+
+---
+
+## 🔗 Related OS
+
+* Island G-Flow Cabin System（GFlow00–GFlow06）
+* FlightOS / ISAFU
+* GravityOS
+* High-G Envelope FlightOS
+* Medical / Training OS
+* DefenseOS / MissionOS
+
+---
+
+## 📚 How to Cite
+
+K.K. (2026). *Island G-Flow Cabin System – GFlow07 Human Physiological Envelope OS*.
+KKAxiomWeaver Whitepaper Research Center.
+[https://github.com/KKAxiomWeaver/Whitepapers](https://github.com/KKAxiomWeaver/Whitepapers)
+
+---
+
+## 🛡 License
+
+This work is licensed under Creative Commons **CC BY-NC-SA 4.0**.
+© 2026 K.K. (Axiom Weaver)
+
+```
+
+---
