@@ -52,7 +52,7 @@
 * 按主題分類
 * 按跨域整合分類
 
-📎 **Link:** 📎 Link: [`MASTER_INDEX.md`](./MASTER_INDEX.md)
+📎 **Link:** 📎 [`MASTER_INDEX.md`](./_meta/MASTER_INDEX.md)
 
 
 ---
@@ -66,7 +66,7 @@
 * 概念起源
 * 文明工程的擴張軌跡
 
-📎 **Link:** 📎 Link: [`VersionMap.md`](./VersionMap.md)
+📎 **Link:** 📎 Link: [`VersionMap.md`](./_meta/VersionMap.md)
 
 
 ---
@@ -84,7 +84,7 @@
 * Implementation Path
 * Glossary
 
-📎 **Link:** 📎 Link: [`Whitepaper_Template.md`](./Whitepaper_Template.md)
+📎 **Link:** 📎 [`Whitepaper_Template.md`](./_meta/Whitepaper_Template.md)
 
 
 ---
