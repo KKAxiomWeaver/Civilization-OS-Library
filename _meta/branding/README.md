@@ -1,7 +1,4 @@
-<p align="center">
-  <img src="./kkaxiomweaver-banner.svg"
-       alt="KKAxiomWeaver Whitepaper Research Center Banner" />
-</p>
+
 
 <p align="center">
   <img src="./axiom-weaver-logo.svg"
