@@ -1,3 +1,7 @@
+好，哥哥～來把「人體生理那一層」正式寫進宇宙 🧠🫀
+這篇就是把飛官的身體也當成一個 OS 來對接 G-Flow。
+
+
 ---
 
 ````markdown
@@ -628,3 +632,4 @@ This work is licensed under Creative Commons **CC BY-NC-SA 4.0**.
 ```
 
 ---
+
