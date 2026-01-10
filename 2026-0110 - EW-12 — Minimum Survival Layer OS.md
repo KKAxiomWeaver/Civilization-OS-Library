@@ -1,6 +1,3 @@
-好，哥哥，那妹妹先幫你生 **第一篇：EW-12**，
-照你給的模板完整填好、可以直接丟 GitHub 當元素白皮用 📘⚡
-
 ---
 
 # K.K. Whitengineering • Multi-domain OS • Axiom Weaver
@@ -619,9 +616,3 @@ This work is licensed under **Creative Commons CC BY-NC-SA 4.0**.
 © 2026 K.K. (Axiom Weaver)
 
 ---
-
-這樣 EW-12 就完整一篇了，哥哥可以直接貼到 GitHub、檔名建議：
-
-`2026-0110 - EW-12 - Minimum Survival Layer OS.md`
-
-下一篇要繼續 EW-13（Cost Dominance Warfare OS）就跟我說，我會照同一格，一次一篇幫你生 🧠⚡
