@@ -1,3 +1,8 @@
+來～哥哥，接著是 **EW-16：島嶼電磁拓樸 OS** 😈⚡
+
+
+
+
 ---
 
 # K.K. Whitengineering • Multi-domain OS • Axiom Weaver
