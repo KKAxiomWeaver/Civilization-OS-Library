@@ -5,7 +5,7 @@ No folders are used; papers are organized through **naming conventions + Master 
 
 ### Repository Structure Strategy
 - All files stored at root (`/`)
-- Naming: `YYYY-MMDD - <OS> - <Title>.md`
+- Naming: `YYYY-MMDD -  <WorldCode>  - <OS> - <Title>.md`
 - `MASTER_INDEX.md` provides cross-domain cross-references
 - `_meta/` stores templates, index, version map, badges
 
