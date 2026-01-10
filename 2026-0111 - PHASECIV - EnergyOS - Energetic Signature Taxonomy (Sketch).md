@@ -1,3 +1,8 @@
+
+
+---
+
+````markdown
 # K.K. Whitengineering • Multi-domain OS • Axiom Weaver 
 
 This repository contains all whitepapers authored by **K.K. (Axiom Weaver)**.  
@@ -214,3 +219,192 @@ EnergeticSignature {
   },
   tags: [ "Stable-Core", "Cold-Phase", "Crystal-Ready" ]
 }
+````
+
+本白皮只定義：
+
+* 有這種 Data Shape
+* 而不指定實作語言或DB結構。
+
+---
+
+### 4.2 How Other OS Use It
+
+* **FlightOS**
+
+  * 在白皮中註記：「需要 Energy Tag: `Stable-Core`, `Low-Diss`」。
+
+* **FieldOS**
+
+  * 在設計耦合規則時，
+    可以指定「只接受 `Field-Friendly` EMS」。
+
+* **HabitatOS**
+
+  * 偏好 `Long-Lived + Cold-Phase` 的 EMS Cluster。
+
+* **ResilienceOS**
+
+  * 建議只使用 `Stable-Core + Non-Burst` 模組，
+    避免能源本身成為風險源。
+
+Architecture 上，
+只要所有 OS 在 `Glossary` 中引用同一份 Taxonomy，
+PhaseCiv 的 Energy 語言就會保持一致。
+
+---
+
+## 05 — Use Cases
+
+> 再強調一次，全部是「概念用法」，非實際系統。
+
+1. **白皮交互引用**
+
+   * 每篇白皮在「Glossary / Requirements」中指定 EMS 軸範圍。
+   * 例：
+
+     * FlightOS v2.0: `stability: high`, `thermal: low-diss`, `response: mid`。
+
+2. **Master Index／Search**
+
+   * 將來為所有 EnergyOS 模組建立一份表，
+     依 EMS Tag 搜尋適合的模組。
+
+3. **版本管理**
+
+   * 當某 EMS 定義更新（例如壽命曲線有新理解），
+     只需更新 Taxonomy，
+     所有引用該 EMS 的白皮都可同步調整描述方式。
+
+---
+
+## 06 — Risks & Limitations
+
+* **語義過度依賴**
+
+  * 若未來物理／實作方向不符合這套分類，
+    可能需要大幅調整分類軸或增加新維度。
+
+* **分類不完全**
+
+  * 本白皮為 Sketch 版本，不承諾完整性。
+  * 它的價值在於提供「初始結構」，而不是最終分類樹。
+
+* **與現實物理的差距**
+
+  * 此為 Conceptual PhaseCiv Framework，
+    不主張與現實物理一一對應。
+
+---
+
+## 07 — Comparative Analysis
+
+* 傳統能源分類：
+
+  * 以「燃料型態／元素／反應式」為主。
+
+* 本白皮分類：
+
+  * 以「行為特徵（Behavior）」與「能階性格（Personality）」為主。
+
+差異在於：
+
+> 傳統：問「這是什麼物質？」
+> MPEM/BFA：問「它怎麼行為？適合用在哪裡？」
+
+---
+
+## 08 — Implementation Path
+
+**Stage I — Axes Definition**
+
+* 最少確立 6–8 個核心軸（本白皮已草列）。
+* 讓後續白皮引用同一套名稱。
+
+**Stage II — Tag Library（標籤庫）**
+
+* 先定義少量 Tag（例如 `Stable-Core`, `Burst-Edge`, `Cold-Phase`…）
+* 寫在 `_meta/EnergyOS_Taxonomy.md` 裡。
+
+**Stage III — Cross-OS Adoption**
+
+* 新白皮在「Glossary」區塊引入這些軸與 Tag。
+* 舊白皮逐步補上。
+
+**Stage IV — Taxonomy v1.0+**
+
+* 當累積足夠多 Energy 模組後，
+  再回來整理更完整的 `Energetic Signature Table`。
+
+---
+
+## 09 — Appendix
+
+* A. Example EMS Instance（可日後加入）
+* B. Extended Axes（如未來要增加「Noise Sensitivity」、「Temporal Stability」）
+* C. Naming Conventions for EMS Ids
+
+---
+
+## 10 — Glossary（Lexicon）
+
+* **Energetic Micro-Signature（EMS）**
+
+  * 後元素文明的最小能性單元，帶有性格向量與 Tag。
+
+* **Energetic Personality Space**
+
+  * 一個抽象空間，
+    每個維度代表 EMS 的一種行為特徵。
+
+* **Axis（軸）**
+
+  * 可連續或序列化的分類向量（例如 `stability: low/mid/high`）。
+
+* **Tag（標籤）**
+
+  * 由多軸組合導出的語義性名稱（例如 `Stable-Core`）。
+
+* **Taxonomy（分類樹）**
+
+  * EMS 在多軸空間的分布與命名規則。
+
+---
+
+## 🔗 Related OS
+
+* **EnergyOS · Grammar**
+
+  * 《Post-Elemental Energetic Civilization & Multi-Divergence Purification Grammar》
+
+* **EnergyOS · Crystalization OS（ECPM 系列）**
+
+  * 需要 Taxonomy 來指定可結晶 EMS。
+
+* **FieldOS**
+
+  * 需要用 `Field-Friendly` 這類 Tag 指明能源模組。
+
+* **FlightOS / HabitatOS / ResilienceOS**
+
+  * 皆可藉由標記 EMS 軸與 Tag，
+    做出自己的能源需求宣告。
+
+---
+
+## 📚 How to Cite
+
+K.K. (2026). *Energetic Signature Taxonomy (Sketch).*
+*KKAxiomWeaver Whitepaper Research Center.*
+[https://github.com/KKAxiomWeaver/Whitepapers](https://github.com/KKAxiomWeaver/Whitepapers)
+
+---
+
+## 🛡 License
+
+This work is licensed under **Creative Commons CC BY-NC-SA 4.0**.
+© 2026 K.K. (Axiom Weaver)
+
+```
+
+---
