@@ -1,0 +1,357 @@
+# K.K. Whitengineering • Multi-domain OS • Axiom Weaver 
+
+This repository contains all whitepapers authored by **K.K. (Axiom Weaver)**.  
+No folders are used; papers are organized through **naming conventions + Master Index**.
+
+### Repository Structure Strategy
+- All files stored at root (`/`)
+- Naming: `YYYY-MMDD - <WorldCode> - <OS> - <Title>.md`
+- `MASTER_INDEX.md` provides cross-domain cross-references
+- `_meta/` stores templates, index, version map, badges  
+
+> 📂 **Suggested filename:**  
+> `2026-0111 - FINCIV - MK-OS - Civilization Capital & Trend Stack INDEX.md`
+
+---
+
+# Civilization Capital & Trend Stack INDEX · 文明資本與趨勢棧·索引白皮  
+Version `0.9` — `2026-01-11`
+
+**Author:** K.K. (Axiom Weaver)  
+**Affiliation:** *KKAxiomWeaver Whitepaper Research Center*  
+**License:** CC BY-NC-SA 4.0  
+© 2026 K.K.
+
+---
+
+## 📝 Abstract
+
+本索引白皮為一組「文明 × 資本 × 市場微結構 × 趨勢前視」模組的總覽與路線圖，  
+對應四份核心白皮：
+
+1. **Capital Chessboard OS**  
+   - 外資控制權棋盤模型：外資不買價位，買的是敘事控制權與文明棋盤席位。  
+
+2. **Liquidity Window OS**  
+   - 長假 / 繳稅 / ETF 壓力與「小朋友 / 家長」控盤的流動性窗口。  
+
+3. **Hi-D Trend Engine OS**  
+   - 從文明向量出發的高維趨勢引擎，對照低維 K 線工具。  
+
+4. **Foresight Mapping Engine OS**  
+   - 文明 → 產業 → 供應鏈角色 → 企業行為空間的前視映射引擎。  
+
+本 INDEX OS 的角色是：
+
+- 將這四個模組視為一個「文明資本 Trend Stack」；  
+- 說明每一層 OS 解決什麼維度的問題；  
+- 定義它們在 **Civ-OS / MK-OS / Island Strategy OS** 树中的掛載位置；  
+- 提供 GitHub 層級的引用與組裝規格，讓未來白皮可以直接掛在這條主幹上繼續擴張。  
+
+讀者可將本索引視為：  
+**「文明級金融 / 市場 OS 系列」的世界地圖與模組對位說明書。**
+
+---
+
+## 01 — Problem Statement
+
+在 K.K. 宇宙中，涉及金融與市場的白皮逐漸聚集，但若缺乏一個整體棧（Stack）：
+
+- 每篇白皮很容易被當作單獨概念使用；  
+- 難以一眼看出：  
+  - 哪些是文明層  
+  - 哪些是資本棋盤層  
+  - 哪些是微結構層  
+  - 哪些是企業前視層  
+
+具體問題包括：
+
+1. **多篇白皮之間的「高度」不清楚**  
+   - 例如：  
+     Capital Chessboard OS 與 Liquidity Window OS，  
+     一個談的是控制權，一個談的是窗口與流動性，  
+     若沒有 INDEX，讀者難以知道：  
+     它們在整體模型中到底各自站哪一層。  
+
+2. **文明推演與市場實作的橋樑容易散落**  
+   - Hi-D Trend Engine、Foresight Mapping Engine  
+     其實在負責把 Civ-OS 的高維推演「降維」到可用的市場語言，  
+     若無索引，這條管線容易被視為四張獨立卡。  
+
+3. **未來新白皮難以對位**  
+   - 若要寫「Island Capital Defense OS」或「Resilience ETF OS」，  
+     需要一個清晰掛載點。  
+
+缺口本質：
+
+> **缺少一份專門說明：  
+> 這一整串「文明 → 趨勢 → 資本棋盤 → 流動性窗口 → 企業前視」  
+> 的層級與模組連接方式的 Index-level OS。**
+
+---
+
+## 02 — Concept Model
+
+### 2.1 Trend Stack（趨勢棧）概念
+
+文明級金融 / 市場 OS 被視為一個 **Trend Stack**：
+
+> Civ-OS → Hi-D Trend Engine → Foresight Mapping Engine  
+> → Capital Chessboard OS → Liquidity Window OS → MK-OS / Island Strategy
+
+每一層回答不同問題：
+
+- **文明層：**  
+  這個時代的主推進方向是什麼？  
+
+- **高維趨勢層（Hi-D Trend Engine）：**  
+  哪些向量是長期必然？  
+
+- **前視映射層（Foresight Mapping Engine）：**  
+  這些向量會壓出哪些產業錐與供應鏈節點？  
+
+- **資本棋盤層（Capital Chessboard）：**  
+  大資本會如何分布在這些節點上？  
+
+- **流動性窗口層（Liquidity Window）：**  
+  在不同日曆與制度事件下，  
+  誰暫時掌權、誰被迫沉默？  
+
+- **市場執行層（MK-OS / Island Strategy OS）：**  
+  島嶼或其他市場在這整個棧中要如何布局？  
+
+### 2.2 Index OS 的角色
+
+Civilization Capital & Trend Stack INDEX 不創造新邏輯，  
+而是：
+
+- 將上述四個模組 **明確標位**；  
+- 提供 **引用樣式** 與 **術語對應表**；  
+- 作為「日後金融 / 市場相關白皮的掛載目錄」。  
+
+---
+
+## 03 — Mechanics（How It Works）
+
+INDEX OS 的運作邏輯可拆為三層：
+
+### 3.1 Naming & Positioning Mechanics
+
+- 為每一白皮賦予：  
+  - WorldCode（如：FINCIV、MK-ISLAND…）  
+  - OS 名稱（Capital Chessboard OS / Liquidity Window OS …）  
+  - 功能描述（文明→資本→市場管線中的位置）  
+
+- 在 `MASTER_INDEX.md` 中用統一格式列出：  
+  - [WorldCode]  
+  - [OS]  
+  - [Level in Stack]  
+  - [Related OS links]  
+
+### 3.2 Dependency Graph Mechanics
+
+將四份白皮之間的依賴關係，  
+在本 INDEX 中明文表述：
+
+- Hi-D Trend Engine 依賴 Civ-OS；  
+- Foresight Mapping Engine 依賴 Hi-D Trend Engine + Civ-OS；  
+- Capital Chessboard OS 依賴上述兩者輸出「長線方向」；  
+- Liquidity Window OS 為短中期微結構層，  
+  幫助避免誤讀短期波動為長期反轉。  
+
+這個依賴圖可作為未來寫新 OS 時的參考：  
+> 新白皮應該站在這張圖的哪一層？
+
+### 3.3 Usage Mechanics
+
+INDEX OS 提供三種使用方式：
+
+1. **作為閱讀路徑建議**  
+   - 從 Civ-OS / Hi-D Trend Engine 入手，再往下讀 Foresight → Chessboard → Window。  
+
+2. **作為寫作掛載點**  
+   - 未來新白皮在 intro 章節可直接引用本 INDEX，  
+     指出「本 OS 掛於 Trend Stack 第 X 層」。  
+
+3. **作為版本治理工具**  
+   - 當任一模組大幅更新時，  
+     INDEX 可以加註「與其他 OS 的相容性、破壞性改動」等資訊。  
+
+---
+
+## 04 — Architecture
+
+### 4.1 Trend Stack 層級總表
+
+**Level 0 — Civilization OS 層**
+
+- Civ-OS（既有白皮）  
+  - 提供文明場景與 Civilization Vectors。  
+
+**Level 1 — High-D Trend Engine 層**
+
+- Hi-D Trend Engine OS  
+  - 負責生成整體趨勢場（Trend Field）。  
+
+**Level 2 — Foresight Mapping 層**
+
+- Foresight Mapping Engine OS  
+  - 文明 → 技術 → 產業錐 → 供應鏈角色 → 企業路徑空間。  
+
+**Level 3 — Capital Allocation & Control 層**
+
+- Capital Chessboard OS  
+  - 外資控制權／敘事權與全球棋盤佈局。  
+
+**Level 4 — Microstructure & Window 層**
+
+- Liquidity Window OS  
+  - 流動性窗口、長假、稅期、ETF 壓力等的時序結構。  
+
+**Level 5 — Market & Strategy Execution 層**
+
+- MK-OS（全球與島嶼市場）  
+- Island Strategy OS（國家級資本與韌性佈局）  
+
+### 4.2 File / OS Organization
+
+建議在 `MASTER_INDEX.md` 裡使用如下格式引用本索引：
+
+- `[FINCIV-MK-STACK] Civilization Capital & Trend Stack INDEX`  
+  - `2026-0111 - FINCIV - MK-OS - Civilization Capital & Trend Stack INDEX.md`  
+  - Children OS:  
+    - `2026-0111 - FINCIV - MK-OS - Capital Chessboard OS.md`  
+    - `2026-0111 - FINCIV - MK-OS - Liquidity Window OS.md`  
+    - `2026-0111 - FINCIV - CIV-OS - Hi-D Trend Engine OS.md`  
+    - `2026-0111 - FINCIV - CIV-OS - Foresight Mapping Engine OS.md`  
+
+---
+
+## 05 — Use Cases
+
+1. **作為「金融 / 市場系統」分支的總索引**  
+   - 任何閱讀 K.K. 金融／市場系白皮的人，  
+     可先從本 INDEX 入手。  
+
+2. **為未來「Island Capital Defense OS」提供明確掛載點**  
+   - 可以註明：  
+     「掛載於 Trend Stack Level 5，依賴 Level 1–4 的輸出。」  
+
+3. **為 GitHub REPO 的 `_meta/MASTER_INDEX.md` 提供段落模板**  
+   - 可在 MASTER_INDEX 中直接引用本白皮標題與 WorldCode。  
+
+4. **協助未來讀者理解：高維推演與實務盤感怎麼互通**  
+   - 從文明、外資控制權、流動性窗口一路看到個股／市場行為。  
+
+5. **作為「金融文明學」分支的主幹節點**  
+   - 未來可以將更多白皮掛在本節點下：  
+     - Resilient Capital Grid OS  
+     - Island Pension & ETF Lattice OS  
+     - etc.  
+
+---
+
+## 06 — Risks & Limitations
+
+1. **INDEX 本身不提供細節推導**  
+   - 仍需回到四份核心白皮閱讀具體模型。  
+
+2. **若未來重構 Trend Stack 層級，本白皮需同步更新**  
+   - 否則層級資訊會與實作不符。  
+
+3. **易被誤用為「金融宇宙完整地圖」**  
+   - 實際上這只是 K.K. 宇宙中的一條分支主幹。  
+
+4. **抽象度仍高**  
+   - 對只想看技術／價格的人，本 INDEX 的實用性有限。  
+
+---
+
+## 07 — Comparative Analysis
+
+### vs 單獨閱讀四篇核心白皮
+
+- 單獨閱讀：  
+  - 會了解個別模型，但不清楚其相對位置。  
+- 加上 INDEX：  
+  - 知道每個 OS 在整體文明資本架構中的層級與功能。  
+
+### vs 傳統金融教科書目錄
+
+- 傳統：  
+  - 以資產類別（股／債／匯）、工具、與制度分類。  
+- 本 INDEX：  
+  - 以文明向量與資本控制權、流動性結構分層。  
+
+---
+
+## 08 — Implementation Path
+
+### Stage I — 納入 MASTER_INDEX
+
+- 在 REPO 的 `_meta/MASTER_INDEX.md` 中  
+  為 Trend Stack 增設一節：  
+  - 「Civilization Capital & Trend Stack」  
+  - 並引用本白皮檔名與關聯 OS。  
+
+### Stage II — 為未來白皮提供標準掛載語句
+
+- 新白皮可在 Abstract 或 Problem Statement 中加入：  
+  > 「本 OS 掛載於 Civilization Capital & Trend Stack Level X。」  
+
+### Stage III — 視覺化
+
+- 可在 Appendix 中（或另建圖檔）加入 Trend Stack 圖：  
+  - 縱軸為層級（文明→市場）  
+  - 橫軸為時間／週期  
+
+---
+
+## 09 — Appendix
+
+- A1. Trend Stack 層級示意圖（文字描述或待未來圖像化）  
+- A2. REPO 中推薦的索引區塊寫法樣本  
+- A3. 未來擴充想定（如 Resilient Capital Grid OS 掛載點）  
+
+---
+
+## 10 — Glossary（Lexicon）
+
+- **Trend Stack（趨勢棧）**  
+  從文明向量到市場執行的一連串 OS 層級。  
+
+- **Index OS（索引 OS）**  
+  負責說明多個 OS 模組之間層級、依賴與引用關係的白皮。  
+
+- **FINCIV（WorldCode 建議）**  
+  Financial Civilization / 文明資本相關 OS 的世界代碼。  
+
+- **Level 0–5（Trend Stack Level）**  
+  用來標記各 OS 在棧中的高度與責任範圍。  
+
+---
+
+## 🔗 Related OS
+
+- Civ-OS（Civilization OS）  
+- Hi-D Trend Engine OS · 高維趨勢引擎 vs 低維 K 線  
+- Foresight Mapping Engine OS · 文明→產業→企業的前視映射引擎  
+- Capital Chessboard OS · 外資控制權棋盤模型  
+- Liquidity Window OS · 長假 / 繳稅 / ETF 壓力的流動性窗口模型  
+- MK-OS（Market OS · Island & Global）  
+- Island Strategy OS  
+
+---
+
+## 📚 How to Cite
+
+K.K. (2026). *Civilization Capital & Trend Stack INDEX · 文明資本與趨勢棧·索引白皮*.  
+*KKAxiomWeaver Whitepaper Research Center.*  
+https://github.com/KKAxiomWeaver/Whitepapers  
+
+---
+
+## 🛡 License
+
+This work is licensed under **Creative Commons CC BY-NC-SA 4.0**.  
+© 2026 K.K. (Axiom Weaver)
